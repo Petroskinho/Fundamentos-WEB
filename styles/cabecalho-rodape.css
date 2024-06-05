@@ -1,0 +1,89 @@
+/* Cabecaolho */
+.caixa {
+    background-color: #173A73;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.img-logo {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -100px;
+    width:50px;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 100px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-icons {
+    position: absolute;
+    margin-right: -1000px;
+    color: white;
+    font-size: 30px;
+}
+
+.social-icons i {
+    margin-right: 20px;
+}
+
+.nav-bar a:hover {
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    /* margin-top: 100px; */
+    text-align: center;
+    background-color: #173A73;
+}
+
+.img-logo-rodape {
+    margin-top: 10px;
+    width: 100px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+}
+
+@media(max-width: 1080px) {
+    .nav-bar ul li a {
+        margin: 0 30px;
+    }
+
+    .social-icons {
+        margin-right: -500px;
+    }
+}
+
+.img-logo.index {
+    opacity: 0;
+    animation: appear 0.7s forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px)
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

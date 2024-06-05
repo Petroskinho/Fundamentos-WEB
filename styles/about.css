@@ -1,0 +1,193 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #175773, #171D73, #2F1773);
+    background-image: linear-gradient(to right, #fff, black, );
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+.integrantes h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sobre-box {
+    position: relative;
+    height: 80%;
+    max-width: 1200px;
+    max-height: 1000px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0 35px 55px rgb(0, 0, 0, 30%);
+}
+
+.sobre-box .integrante1 {
+    position: relative;
+    background-color: #175773;
+    padding: 40px;
+}
+
+.textProfile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+
+.textProfile .imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.textProfile .imgBx img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textProfile h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.textProfile h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.sobre-box .integrante2 {
+    position: relative;
+    background-color: #171D73;
+    padding: 40px;
+}
+
+.sobre-box .integrante3 {
+    position: relative;
+    background-color: #2F1773;
+    padding: 40px;
+}
+
+.infoContato {
+    padding-top: 30px;
+    color: white;
+}
+
+.infoContato h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.infoContato ul {
+    position: relative;
+}
+
+.infoContato ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.desenvolvimento {
+    width: 80%;
+    color: white;
+    margin: 20px 0;
+}
+
+.desenvolvimento h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.desenvolvimento p,
+ul {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.desenvolvimento ul {
+    margin: 20px 20px;
+    list-style: square;
+}
+
+.desenvolvimento ul li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.desenvolvimento span {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.desenvolvimento .imgBx {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.desenvolvimento .imgBx img {
+    cursor: pointer;
+}
+
+@media(max-width: 1000px) {
+    .sobre-box {
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 87vh;
+    }
+}
+
+@media(max-width: 552px) {
+    .sobre-box {
+        padding-bottom: 100vh;
+    }
+
+    .desenvolvimento {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 440px) {
+    .desenvolvimento h1 {
+        font-size: 28px;
+    }
+
+    .sobre-box {
+        padding-bottom: 90vh;
+    }
+
+    .desenvolvimento .imgBx img {
+        max-width: 280px;
+    }
+}
+
+@media(max-height: 610px) {
+    .sobre-box {
+        padding-bottom: 123vh;
+    }
+}

@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #175773, #171D73, #2F1773 );
+    background-image: linear-gradient(to right, #fff, black, );
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+main div {
+    width: 100%;
+}
+
+.text{
+    height: 100vh;
+    text-align: center;
+    color: white;
+    width: 505px;
+}
+.text h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 20%;
+    font-size: 36px;
+}
+
+.text h2{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.text p{
+    margin-top: 10px;
+    font-size: 26px;
+    text-align: justify;
+}
+
+.text img{
+    margin-top: 100px;
+    height: 200px;
+}

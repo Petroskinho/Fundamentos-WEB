@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #175773, #171D73, #2F1773 );
+    background-image: linear-gradient(to right, #fff, black, );
+    font-family: 'Roboto', sans-serif;  
+    min-height: 100vh;
+}
+
+.formulario {
+    height: 100vh;
+    width: 100vw;
+}
+.formulario h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.tableCSS{
+    box-shadow: 0 33px 55px rgb(0,0,0, 50%);
+    color: white;
+    background-color: #175773;
+    width: 40%;
+    max-width: 435px;
+    min-width: 329px;
+    margin: 0 auto;
+}
+
+ p {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.tableCSS tr td{
+    padding: 10px;
+}
+.tableCSS tr th{
+    padding: 20px 0;
+    color: white;
+    background-color:#171D73;
+}
+
+.formInput {
+    width: 90%;
+}
+
+b{
+    font-weight: bold;
+}
